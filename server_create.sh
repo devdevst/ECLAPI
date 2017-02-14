@@ -18,7 +18,7 @@ server2_imageRef=$(cat user_info.conf | grep server2_imageRef | sed -e 's/server
 server2_networks=$(cat user_info.conf | grep server2_networks | sed -e 's/server2_networks://'g)
 
 #API
-endpoint=nova-jp1-ecl.api.ntt.com
+endpoint=nova-hk1-ecl.api.ntt.com
 api=\/v2\/${tenant_ID}\/servers
 
 #Command

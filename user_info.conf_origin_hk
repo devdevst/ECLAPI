@@ -1,7 +1,7 @@
 #BASIC INFOMATION
 #To use api,please write your infomation getting from your portal-site.
 tenant_ID:2a8a82d7f03d474fbf82d9a0c17a48f1
-api_country:jp1
+api_country:hk1
 api_key:gpSUWsi7ctWcYn6o2FYQGcsA8GN4U6Us
 api_secret_key:2gBVNmSeFQCavhuf
 
@@ -29,9 +29,9 @@ firewall_if2_nw:
 #If you want to change the system diagram, please change following value.
 
 #INTERNETGATEWAY
-internet_service_id:ed9af0c6-477e-4d39-9603-e30de8849328
+internet_service_id:8ab8ee85-e20f-4b22-bcd0-dba524df9516
 gateway_name:Api-gateway
-qos_option_id:19692b9f-60cb-4fd9-88a9-a602ff0a4477
+qos_option_id:64834a25-fa7a-4594-bc94-0ee0af8780a4
 #GLOBALIP
 public_ip_name:Api-Gip
 public_ip_submask_length:28
@@ -44,14 +44,14 @@ network2_type:data
 network2_subnet:192.168.2.0/24
 #FIREWALL
 firewall_name:Api_Fw
-firewall_plan_id:66670bb4-c7ea-48fe-a301-f25ed28d986d
+firewall_plan_id:d7c2a5a8-1f44-4196-8ff0-e1079ad1d0be
 #FIREWALL_IF
 firewall_if1_ip:192.168.1.5
 firewall_if2_ip:192.168.2.5
 #SERVER
 server1_name:TestVM1_Linux
-server1_flavorRef:1CPU-4GB
-server1_imageRef:ad99b1e5-e830-47a7-904f-933faae7e9c1
+server1_flavorRef:2CPU-8GB
+server1_imageRef:53269714-af8b-4088-8d90-bbcee31a128a
 server2_name:TestVM1_Windows
-server2_flavorRef:1CPU-4GB
-server2_imageRef:54320622-fcd2-4477-bb50-ec14f8e9377f
+server2_flavorRef:2CPU-8GB
+server2_imageRef:3691be8c-2895-488c-97ec-a36b40370e8f

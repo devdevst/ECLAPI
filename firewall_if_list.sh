@@ -5,7 +5,7 @@ header2=Accept-Encoding\:gzip.deflate.compress.\(optional\)
 header3=Accept:application\/json
 
 #API
-endpoint=network-jp1-ecl.api.ntt.com
+endpoint=network-hk1-ecl.api.ntt.com
 api=\/v2.0\/firewall_interfaces
 
 #Command

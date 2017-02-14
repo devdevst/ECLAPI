@@ -5,7 +5,7 @@ header2=Accept-Encoding\:gzip.deflate.compress.\(optional\)
 header3=Accept:application\/json
 
 #API
-endpoint=nova-jp1-ecl.api.ntt.com
+endpoint=nova-hk1-ecl.api.ntt.com
 api=\/v2\/7cddcf9feee94db695a1df96688c3b6d\/servers/detail
 
 #Command

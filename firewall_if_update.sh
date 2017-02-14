@@ -20,7 +20,7 @@ c=`expr $b + 3`
 firewall_if1_ip=$(echo $a | sed -e "s/\.${b}$/\.${c}/"g)
 
 #Command
-endpoint=network-jp1-ecl.api.ntt.com
+endpoint=network-hk1-ecl.api.ntt.com
 api=\/v2.0\/firewall_interfaces\/${firewall_if1_id}
 curl -X PUT -v \
 -H "${header1}" \

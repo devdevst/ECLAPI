@@ -6,7 +6,7 @@ header3=Accept: application\/json
 header4="Content-Type: application/json"
 
 #API
-endpoint=network-jp1-ecl.api.ntt.com
+endpoint=network-hk1-ecl.api.ntt.com
 api=\/v2.0\/subnets
 
 #Body

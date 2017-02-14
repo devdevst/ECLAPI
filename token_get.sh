@@ -4,7 +4,7 @@ api_secret_key=$(cat user_info.conf | grep api_secret_key | sed -e 's/api_secret
 
 curl -i \
  -H "Content-Type: application/json" \
- -d '
+ -d ' 
 {
    "auth": {
        "identity": {
@@ -27,5 +27,5 @@ curl -i \
            }
        }
    }
-}' https://keystone-jp1-ecl.api.ntt.com/v3/auth/tokens \
+}' https://keystone-hk1-ecl.api.ntt.com/v3/auth/tokens \
 | grep X-Subject-Token | sed -e 's/X-Subject-Token: //'g > token.txt

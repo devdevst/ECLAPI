@@ -12,7 +12,7 @@ gateway_name=$(cat user_info.conf | grep gateway_name | sed -e 's/gateway_name:/
 qos_option_id=$(cat user_info.conf | grep qos_option_id | sed -e 's/qos_option_id://'g)
 
 #API
-endpoint=network-jp1-ecl.api.ntt.com
+endpoint=network-hk1-ecl.api.ntt.com
 api=\/v2.0\/internet_gateways
 
 #Command
