@@ -1,9 +1,9 @@
 #BASIC INFOMATION
 #To use api,please write your infomation getting from your portal-site.
-tenant_ID:2a8a82d7f03d474fbf82d9a0c17a48f1
+tenant_ID:
 api_country:jp1
-api_key:gpSUWsi7ctWcYn6o2FYQGcsA8GN4U6Us
-api_secret_key:2gBVNmSeFQCavhuf
+api_key:
+api_secret_key:
 
 
 #TEMPORARY INFOMATION
